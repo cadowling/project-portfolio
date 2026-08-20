@@ -1,0 +1,43 @@
+# Virtual environments
+venv/
+venv-*/
+.venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Jupyter
+*.ipynb_checkpoints
+
+# Data — keep large/raw datasets out of git
+data/raw/
+*.csv
+*.parquet
+*.xlsx
+*.db
+*.sqlite3
+
+# Models and other large binaries
+*.pkl
+*.joblib
+*.h5
+*.onnx
+
+# Secrets — never commit these
+.env
+*.pem
+*.key
+credentials.json
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
