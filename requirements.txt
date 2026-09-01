@@ -11,3 +11,7 @@ tqdm
 jupyter
 notebook
 optuna
+opencv-python
+scikit-image
+imutils
+Pillow
